@@ -1,0 +1,21 @@
+# Default stereo calibration parameters
+# These are example values - replace with actual calibration results
+rotation_matrix:
+  - [0.999, -0.001, 0.001]
+  - [0.001, 0.999, -0.001]  
+  - [-0.001, 0.001, 0.999]
+
+translation_vector: [60.0, 0.0, 0.0]  # 60mm baseline
+
+essential_matrix:
+  - [0.0, -0.001, 0.0]
+  - [0.001, 0.0, -60.0]
+  - [0.0, 60.0, 0.0]
+
+fundamental_matrix:
+  - [0.0, -1.43e-06, 0.0]
+  - [1.43e-06, 0.0, -0.086]
+  - [0.0, 0.086, 1.0]
+
+rms_error: 0.5
+image_size: [640, 480]

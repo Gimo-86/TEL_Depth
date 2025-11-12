@@ -1,0 +1,8 @@
+# Default right camera calibration parameters  
+# These are example values - replace with actual calibration results
+camera_matrix:
+  - [700.0, 0.0, 320.0]
+  - [0.0, 700.0, 240.0]
+  - [0.0, 0.0, 1.0]
+
+dist_coeffs: [0.1, -0.2, 0.0, 0.0, 0.0]
